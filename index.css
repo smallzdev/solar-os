@@ -1,0 +1,62 @@
+
+body {
+background-color: #315c36;
+}
+
+p {
+    font-family: 'Karla', Arial, sans-serif;
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    margin: 4px;
+}
+
+h1 {
+    font-family: 'Karla', Arial, sans-serif;
+    margin: 4px;
+    margin-left: 6px;
+    color: rgb(249, 249, 249);
+}
+
+h2 {
+    font-family: 'Katana', Arial, sans-serif;
+    margin: 4px;
+    color: rgb(249, 249, 249);
+    margin-left: 6px;
+}
+
+a {
+    font-family: 'Karla', Arial, sans-serif;
+    color: rgb(249, 249, 249);
+    margin: 4px;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.access-desktop {
+    font-family: 'Karla', Arial, sans-serif;
+    border-radius: 25px;
+    width: 104px;
+    height: 54px;
+    background-color: rgb(0, 128, 0);
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.access-desktop:hover {
+    opacity: 0.8;
+}
+
+.access-desktop:active {
+    opacity: 0.6;
+}
+
+.solar-image {
+    width: 160px;
+    height: 164px;
+    object-fit: cover;
+    margin: 20px;
+    display: block;
+}
