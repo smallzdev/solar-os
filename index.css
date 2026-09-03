@@ -1,6 +1,8 @@
 
 body {
-background-color: #315c36;
+    display: flex;
+    background-color: #315c36;
+    min-height: 99vh;
 }
 
 p {
@@ -82,4 +84,15 @@ a {
     justify-content: flex-start;
     backdrop-filter: blur(8px);
     background-color: rgba(16, 217, 120, 0.5);
+    margin-top: auto;
+    padding: 10px;
+    padding-right: 89%;
+    margin-left: 0;
+}
+
+.drag-image, .close-image, .fullscreen-image {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
 }

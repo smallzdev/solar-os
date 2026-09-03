@@ -12,7 +12,10 @@
 
     <body>
         <!-- Welcome screen thingyyygygygygygyg. Yeahhhuh -->
-        <div class="welcome-div">
+        <div id="welcome-div-id" class="welcome-div">
+            <img id="welcome-div-idheader" class="drag-image" src="resources/drag.png">
+            <img class="close-image" id="welcomeclose" src="resources/close.png">
+            <img class="fullscreen-image" src="resources/fullscreentogle.png">
             <h1>Solar OS</h1>
             <p>Welcome to Solar OS! This is a simple eco themed operating system, made by @smallz. Please click the button below to access your desktop.</p>
             <img class="solar-image" src="resources/solarpannel.jpg">
@@ -28,9 +31,10 @@
         </div>
 
         <div class="top-bar">
-            <p>Solar OS</p>
+            <p id="welcomeopen">Solar OS</p>
             <p id="TimeText">Time</p>
         </div>
+
         <script>
         var Time = new Date().toLocaleTimeString();
         var TimeTextThing = document.querySelector('#TimeText');
@@ -45,5 +49,6 @@
         }
         setInterval(timeUpdate, 1000);
         </script>
+        <script src="script.js"></script>
     </body>
 </html>
